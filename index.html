@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
+    <title>What to Do?</title>
+</head>
+<body>
+
+    <h1 id="topHeader">hey friend, looking for something to do?</h1>
+
+    <textarea type="text" name="tasks" id="taskBox"></textarea>
+    <br>
+    <input type="button" id="submitTasksButton" class="button" value="add tasks" onClick="addTasks()"></button>
+    <ul id="taskListPrinted"></ul>
+
+    <div id="randomComponents">
+        <h2 id="bottomHeader">trouble finding what to do first?</h2>
+        <input type="button" id="randomButton" class="button" value="try this" onClick="spinTheWheel()"></input>
+        <div id="randomTaskContainer">
+            <h2 id="randomTask"></h2>
+        </div>
+    </div>
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>

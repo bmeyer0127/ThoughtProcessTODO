@@ -1,0 +1,69 @@
+* {
+    background-color: #D6D2C4;
+    color: #383838;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #D6D2C4;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+}
+
+#taskBox {
+    background-color: #D6D2C4;
+    border-color: #383838;
+    border-radius: 15px;
+    border-width: 5px;
+    font-weight: bold;
+    height: 5em;
+    line-height: 1.5em;
+    padding: 10px;
+    resize: none;
+    width: 30%;
+}
+
+#submitTasksButton {
+    position: relative;
+    font-weight: bold;
+    top: 10px;
+}
+
+#taskListPrinted {
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 0;
+    width: 30%;
+}
+
+.task {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+.remove {
+    bottom: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 350px;
+}
+
+#randomComponents {
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+}
+
+#randomButton {
+    display: inline-block;
+    font-weight: bold;
+}
